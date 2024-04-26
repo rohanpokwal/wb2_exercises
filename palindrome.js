@@ -6,7 +6,7 @@ reversedArray = splitWord.reverse(); //it reverse the array bc array has the rev
 reversedWord = reversedArray.join(""); //converts to string
 
 if (word === reversedWord) {
-  console.log("It is a Palladian");
+  console.log("It is a Palindrome");
 } else {
-  console.log("It is NOT a Palladian");
+  console.log("It is NOT a Palindrome");
 }
